@@ -1,0 +1,33 @@
+.admin-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0 10px;
+  background-color: white;
+
+  .ant-tabs .ant-tabs-left-bar {
+    height: calc(100vh - 180px);
+    border: 1px solid #f2f2f2;
+  }
+
+  .ant-tabs-tab {
+    text-align: left !important;
+    margin-bottom: 4px !important;
+  }
+
+  .ant-tabs .ant-tabs-left-content {
+    padding-left: 0;
+  }
+
+  // .ant-col-5{
+  //   width: 700px;
+  // }
+
+}
+// .ant-row {
+//   width: 560px !important;
+// }
+
+.switch-label{
+  width: 700px !important;
+}

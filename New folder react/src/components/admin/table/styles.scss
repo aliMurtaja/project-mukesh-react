@@ -1,0 +1,34 @@
+.admin-table-container {
+  .ant-table-title {
+    padding: 0;
+  }
+  .table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f2f2f2;
+    padding: 10px 20px;
+    h4 {
+      margin: 0;
+      color: #596672;
+      font-family: sans-serif;
+    }
+    .table_actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+
+  .ant-table-body {
+    overflow: auto !important;
+    height: calc(100vh - 360px);
+    > table {
+      overflow: auto !important;
+    }
+  }
+
+  thead th {
+    border: 0 !important;
+  }
+}

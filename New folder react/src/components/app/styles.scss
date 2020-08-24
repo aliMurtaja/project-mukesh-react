@@ -1,0 +1,20 @@
+@import '~antd/dist/antd.css';
+
+@import '~styles/variables';
+@import 'styles/_mixins.scss';
+
+/**
+*   MAIN STYLES
+*/
+.swift-pack-app {
+  height: 100%;
+  overflow: hidden;
+
+  .content {
+    position: relative;
+    // background: white;
+    // background: rgba(100, 100, 100, 0.05);
+    // height: calc(100vh - 50px);
+    overflow: auto;
+  }
+}
